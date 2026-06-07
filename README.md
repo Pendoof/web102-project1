@@ -34,10 +34,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-![alt text](https://i.imgur.com/qDUk0He.gif)
-
+<img src='https://i.imgur.com/qDUk0He.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with ...
 OBS, Canva, Imgur
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
