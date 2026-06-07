@@ -1,0 +1,74 @@
+.bg-container {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  background: #000;
+  z-index: -1;
+}
+
+.bg-grid {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(to right,#0b696650 2px,transparent 2px),linear-gradient(to bottom,#510B6950 2px,transparent 2px);
+  background-size: 48px 48px;
+}
+
+.bg-shadow {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(to bottom, transparent 80%, black 100%);
+}
+
+.header {
+  padding: 3rem;
+  text-align: center;
+}
+
+.card-container {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
+}
+
+.card {
+  width: 20rem;
+  height: 16rem;
+  border: solid white;
+  border-radius: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+img {
+  width: 8rem;
+  height: 4rem;
+}
+
+a {
+  width: 10rem;
+  height: 2rem;
+  background-color: deepskyblue;
+  border-radius: 2rem;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: dodgerblue;
+  transform: scale(105%);
+  transition: 150ms;
+}
